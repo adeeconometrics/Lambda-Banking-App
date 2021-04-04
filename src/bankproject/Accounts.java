@@ -11,7 +11,6 @@ import java.util.logging.Logger;
 
 /**
  * @author J.K. Cortes
- * Reviewed by D.D. Amiana
  */
 public class Accounts {
     
