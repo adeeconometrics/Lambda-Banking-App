@@ -118,7 +118,7 @@ public class Accounts {
             }catch (SQLException ex){ex.printStackTrace();}            
         }
         
-        public String checkBal(Statement st){
+        public String checkBalance(Statement st){
             try {
                 double bal = read(st);
                 return Double.toString(bal);
@@ -265,7 +265,7 @@ public class Accounts {
             } catch (SQLException ex){ ex.printStackTrace();}
         };
         
-        public void checkBal(Statement st){
+        public void checkBalance(Statement st){
             try {
                 if(super.checkPassword(st, accountNum, username, password)){
                     double bal = read(st);
